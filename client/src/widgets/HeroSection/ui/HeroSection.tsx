@@ -12,6 +12,7 @@ import hero4Image from "@/shared/assets/images/hero4.png";
 import hero5Image from "@/shared/assets/images/hero5.png";
 import hero6Image from "@/shared/assets/images/hero6.png";
 import { Container } from "@/shared/ui/Container/Container";
+import { WhiteLine } from "@/shared/ui/WhiteLine/WhiteLine";
 
 export const HeroSection = () => {
   const words = ["Anime", "Animals", "Nature", "Food", "Architecture"];
@@ -29,14 +30,19 @@ export const HeroSection = () => {
     <section className={clsx(styles.HeroSection)}>
       <Container>
         <div className={styles.HeroSectionContent}>
-          <div className={styles.topLine}>
+          {/* <div className={styles.topLine}>
             <p>
               <strong>AI Image Generator:</strong> Create Unique AI Art with
               Free AI Image Generator
             </p>
             <Image src={AngrySmileBlackImage} alt="Angry Smile Icon" />
-          </div>
-
+          </div> */}
+          <WhiteLine
+            image={<Image src={AngrySmileBlackImage} alt="Angry Smile Icon" />}
+          >
+            <strong>AI Image Generator:</strong> Create Unique AI Art with Free
+            AI Image Generator
+          </WhiteLine>
           <h1 className={styles.title}>
             Create <span>images</span> with AI without restrictions
           </h1>

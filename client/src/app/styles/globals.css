@@ -7,7 +7,7 @@
 }
 
 :root {
-  --background: #ffffff;
+  --background: #f7f7f7;
   --foreground: #171717;
   --text-primary-color: #000000;
   --text-secondary-color: #585858;
@@ -28,6 +28,16 @@
     #ffa13e,
     #ffc837,
     #00cc3d
+  );
+  --rainbow-text-gradient: linear-gradient(
+    170.2deg,
+    #06acf1 20%,
+    #08304c 30%,
+    #e600c2 41%,
+    #08304c 41%,
+    #08304c 65%,
+    #ffc837 76%,
+    #00cc3d 82%
   );
 }
 

@@ -54,12 +54,16 @@ export const basier = localFont({
 
 export const junicode = localFont({
   src: [
-  
+     {
+      path: "./junicode/Junicode-Italic.ttf",
+      weight: "400",
+      style: "normal",
+    },
     {
       path: "./junicode/Junicode-BoldItalic.ttf",
       weight: "800",
       style: "normal",
-    },
+    }
   ],
   variable: "--font-junicode",
 });

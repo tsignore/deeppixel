@@ -10,7 +10,7 @@
   border: 1px solid var(--stroke-color);
   box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(24px);
-  z-index: 2;
+  z-index: 5;
 
   .HeaderCenter {
     .button {
@@ -58,6 +58,7 @@
     position: absolute;
     visibility: hidden;
     border: 1px solid var(--stroke-color);
+    z-index: 100;
   }
   .menuOpen {
     right: 0;
